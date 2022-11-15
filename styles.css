@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+}
+
+img {
+  width: 200px;
+}
+
+.item {
+  text-align: center;
+  width: 300px;
+  margin: 1rem 1rem;
+}
