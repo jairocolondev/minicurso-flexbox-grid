@@ -1,15 +1,25 @@
-.gallery{
+body {
+  min-height: 100vh;
+  background: black;
+  padding:0;
+  margin:0;
   display: grid;
-  grid-template-rows: 600px 250px;
-  grid-template-columns: 600px 300px 300px;
-  max-width: 1200px;
-  margin: 0 auto;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr auto;
+  /* grid-template-rows: auto minmax(1fr,min-content) auto; */
 }
 
-img{
-  object-fit: cover;
-  object-fit: cover;
-  width: 100%;
-  max-height: 100%;
-  border:5px solid white;
+header {
+  background-color: pink;
+  padding: 10px;
+}
+
+main {
+  background-color: red;
+  padding: 10px;
+}
+
+footer {
+  background-color: yellow;
+  padding: 10px;
 }
